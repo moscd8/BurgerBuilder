@@ -195,7 +195,6 @@ const BurgerBuilder = props => {
         }
         return (        
         <Aux>
-            <p>Test Test </p>
             <Modal show={purchasing} modalClosed={purchaseCancelHandler} >
               {orderSummary}
              </Modal>
