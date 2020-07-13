@@ -1,0 +1,36 @@
+.Order{
+    width: 80%;
+    border:1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+.Email { 
+    visibility: hidden; 
+    color:  blue; 
+    font-style: italic;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+  
+}
+
+.Name{  
+    color:  black; 
+    font-style: italic;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+  
+}
+
+.Order:hover .Email {
+    visibility: visible;
+    
+}
+.Order:hover .Name {
+    visibility: visible;
+    color:  rgb(114, 95, 77); 
+}
+ 
